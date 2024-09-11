@@ -281,7 +281,7 @@ $(document).ready(function() {$(window).scroll(function () {
         var id = pinItem.attr("data-id");
         $('#line-'+id).toggleClass('show')
     })
-    $('.markup-menu a[href*="#"]').on('click', function (event) {
+    $('a[href*="#"]').on('click', function (event) {
         // event.preventDefault();
         var href = $(this).attr('href');
         

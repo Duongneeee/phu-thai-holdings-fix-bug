@@ -510,9 +510,9 @@ $(document).ready(function() {$(window).scroll(function () {
         $(this).closest('.awards_box').find('.aw_desc').html(awLongDesc);
         $(this).closest('.awards_box').find('.col-md-6 img').attr("src", awImg);
     })
-    $('.markup-menu a[href*="#"]').on('click', function (event) {
+    $('a[href*="#"]').on('click', function (event) {
         var href = $(this).attr('href');
-        if (href.includes('#')) {
+        if (href.includes('#') && href.split('#')[0].endsWith('/business')) {
             var fragment = href.split('#')[1];
             
             updateTabs(fragment);
