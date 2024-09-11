@@ -1,0 +1,9 @@
+{
+    "name": "Companies",
+    "namespace": "Botble\\Companies\\",
+    "provider": "Botble\\Companies\\Providers\\CompaniesServiceProvider",
+    "author": "N/A",
+    "url": "N/A",
+    "version": "1.0",
+    "description": "The description for module companies"
+}

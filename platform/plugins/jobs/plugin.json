@@ -1,0 +1,9 @@
+{
+    "name": "Jobs",
+    "namespace": "Botble\\Jobs\\",
+    "provider": "Botble\\Jobs\\Providers\\JobsServiceProvider",
+    "author": "N/A",
+    "url": "N/A",
+    "version": "1.0",
+    "description": "The description for module jobs"
+}

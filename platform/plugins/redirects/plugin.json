@@ -1,0 +1,9 @@
+{
+    "name": "Redirects",
+    "namespace": "Botble\\Redirects\\",
+    "provider": "Botble\\Redirects\\Providers\\RedirectsServiceProvider",
+    "author": "Trọng Học Giỏi",
+    "url": "N/A",
+    "version": "1.0",
+    "description": "Bố Trọng"
+}
