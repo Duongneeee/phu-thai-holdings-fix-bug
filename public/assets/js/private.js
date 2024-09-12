@@ -526,17 +526,16 @@ $(document).ready(function() {$(window).scroll(function () {
         }
     });
     $('.lv2_tabs2 .nav-tabs a').on('click', function(e) {
-        e.preventDefault(); // Ngăn chặn hành vi mặc định của liên kết
+        e.preventDefault();
         
-        var $this = $(this); // Lưu đối tượng liên kết hiện tại
-        var target = $this.attr('href'); // Lấy href từ liên kết
-        var $target = $this.closest('li'); // Tìm phần tử <li> chứa liên kết
+        var $this = $(this);
+        var target = $this.attr('href');
+        var $target = $this.closest('li');
         
-        // Cuộn đến phần tử tab được chọn
         var scrollContainer = $('.nav-tabs');
         scrollContainer.animate({
             scrollLeft: $target.position().left + scrollContainer.scrollLeft()
-        }, 500); // Thời gian cuộn (500ms)
+        }, 500);
 
     });
 })
